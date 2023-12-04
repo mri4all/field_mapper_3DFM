@@ -1,7 +1,7 @@
 # 3DFM - Automate your field mapping in 3D!
-#Updates
--v1.0: Automated 3D magnetic flux density mapping system v1.0
--v2.0: Recents updates from the MRI4ALL Hackathon in NYC
+# Updates
+- v1.0: Automated 3D magnetic flux density mapping system v1.0
+- v2.0: Recents updates from the MRI4ALL Hackathon in NYC
 	- generalized 3D mapping procedure (cube, sphere, surface of sphere)
 	- mapping permanent magnet constructions, passive shims, or 3 axis switched gradient coils (data included)
 
