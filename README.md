@@ -1,11 +1,11 @@
 # 3DFM - Automate your field mapping in 3D!
 # Updates
-- v1.0: Automated 3D magnetic flux density mapping system v1.0
-- v2.0: Recents updates from the MRI4ALL Hackathon in NYC
+- v1.0: Automated 3D magnetic flux density mapping system.
+- v2.0: Recents updates from the MRI4ALL Hackathon in NYC.
 	- generalized 3D mapping procedure (cube, sphere, surface of sphere)
 	- mapping permanent magnet constructions, passive shims, or 3 axis switched gradient coils (data included)
 
-#Required Software and Hardware
+# Required Software and Hardware
 - Ubuntu 20.04 / Windows 10 or 11
 - Python 3 or higher (very easy setup with PyCharm and relevant libraries)
 - Arduino UNO Rev3: https://store.arduino.cc/usa/arduino-uno-rev3
@@ -16,7 +16,7 @@
 - Probe 
 	- Metrolab THM1176 used here (USB connection).
 
-#Installation
+# Installation
 1. Install single trigger code for the THM1176 probe (https://github.com/Hyperfine/pyTHM1176/tree/cedh/single_trig/)
 	- place all 'pyTHM1176' subdirectory files into the 3DFM folder.
 	- read pyTHM1176 notes (must have correct drivers installed using Zadig)
@@ -40,10 +40,10 @@
 
 7. Hit the play button.
 
-#Notes
+# Notes
 - v1.0 code is still included. 
 	- 3DFM.py will map in a zig-zag pattern over a defined volume.
 	- default mapping range is 13.5 cm x 13.5 cm x 1 cm in steps of 3 mm x 3 mm x 1 mm.
 
-#Future work
+# Future work
 - GUI
